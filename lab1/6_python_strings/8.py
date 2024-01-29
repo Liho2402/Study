@@ -1,3 +1,4 @@
 age = 36
-txt = "My nameis Jonh, and I am {}"
-print(txt.format(age))
+last_name = "Lee"
+heaiht = 5.5
+txt = "My nameis Jonh {2}, and I am {0}, I have height {1}"
