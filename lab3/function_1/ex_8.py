@@ -1,10 +1,13 @@
 def spy_game(list):
-    string = ''
-    for i in list:
-        if i == 0 or i == 7:
-            string += str(i)
-        else:
-            continue
+    if len(list) == 0:
+        return "No game"
+    else:
+        string = ''
+        for i in list:
+            if i == 0 or i == 7:
+                string += str(i)
+            else:
+                continue
     
     if string == '007':
         print("True")

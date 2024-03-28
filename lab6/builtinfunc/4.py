@@ -1,5 +1,6 @@
 from time import sleep
 from math import sqrt
+
 num = int(input("Input your number: "))
 mill = int(input("Enter milliseconds: "))
 
